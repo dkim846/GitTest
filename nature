@@ -1,0 +1,37 @@
+
+# Nature travelling bot
+# David KIm
+# September 14
+
+
+#intro
+print("Hello this is JohnBot, your local Fraser Valley nature travelling guide. Are you interested in my guidance?")
+ans=input("Are you interested in my guidance? Please say Yes or No")
+if ans == "yes":
+    print("Great! Allow me to guide you.")
+
+
+    #Activity
+    activity=input("Are you interested in hiking, camping or sighseeing?")
+    if activity == "hiking":
+         print("Amazing! The fraser valley is rich with hikes")
+         xp=input(" Would you call yourself experienced or new to hiking?")
+         if xp=="new":
+             print("Sounds good! McKee Peak is a great hike for beginners in Abbotsford!")
+         if xp== "experienced": 
+              print("Spectacular! Chadsey Lake is perfect for your expertise!")
+
+              
+    elif activity == "sightseeing":
+         print("Awesome! Cultus lake is perfect for a scenic sight!")
+            
+    else:
+            print("Great! Chilliwack Lake is an amazing place to go camping in Chilliwack.")
+
+
+
+   
+     
+else:
+    print("Sounds good! Im always here if you are looking for my guidance.")
+
